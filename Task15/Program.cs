@@ -21,5 +21,10 @@ else if (n == 6)
     
 else
     Console.WriteLine("Воскресенье");
-if (n == 6 || n == 7);
-Console.WriteLine("Выходной день");
+if (n == 6 || n == 7)
+{
+  Console.WriteLine("Выходной день");
+  Console.WriteLine("True");
+}
+else
+Console.WriteLine("False");
